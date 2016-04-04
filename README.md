@@ -34,3 +34,5 @@ The MIT License. Read [LICENSE](LICENSE) for further information.
 
 ---
 ## git File Status
+
+![html](images/gitFileStatus.png)
