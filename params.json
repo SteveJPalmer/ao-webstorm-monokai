@@ -1,0 +1,6 @@
+{
+  "name": "Ao-webstorm-monokai",
+  "tagline": ":paperclip: WebStorm theme - based on the monokai colour scheme",
+  "body": "# ao-webstorm-monokai\r\n\r\n\r\nWebStorm theme based on the monokai color scheme\r\n\r\n\r\n# License\r\nAudioOrange\r\n\r\nThe MIT License. Read [LICENSE](LICENSE) for further information.\r\n\r\n\r\n\r\n# Screenshots\r\n\r\n## HTML\r\n\r\n![html](images/html.png)\r\n\r\n---\r\n## JavaScript\r\n\r\n![html](images/javascript.png)\r\n\r\n---\r\n## CSS\r\n\r\n![html](images/css.png)\r\n\r\n---\r\n## Less\r\n\r\n![html](images/css-less.png)\r\n\r\n---\r\n## git File Status\r\n\r\n![html](images/gitFileStatus.png)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
