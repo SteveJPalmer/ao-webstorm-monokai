@@ -1,72 +1,8 @@
-@font-face {
-  font-family: 'OpenSansLight';
-  src: url("../fonts/OpenSans-Light-webfont.eot");
-  src: url("../fonts/OpenSans-Light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Light-webfont.woff") format("woff"), url("../fonts/OpenSans-Light-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Light-webfont.svg#OpenSansLight") format("svg");
-  font-weight: normal;
-  font-style: normal;
+
+.body .ao {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-@font-face {
-  font-family: 'OpenSansLightItalic';
-  src: url("../fonts/OpenSans-LightItalic-webfont.eot");
-  src: url("../fonts/OpenSans-LightItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-LightItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-LightItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-LightItalic-webfont.svg#OpenSansLightItalic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'OpenSansRegular';
-  src: url("../fonts/OpenSans-Regular-webfont.eot");
-  src: url("../fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Regular-webfont.woff") format("woff"), url("../fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Regular-webfont.svg#OpenSansRegular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-}
-
-@font-face {
-  font-family: 'OpenSansItalic';
-  src: url("../fonts/OpenSans-Italic-webfont.eot");
-  src: url("../fonts/OpenSans-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Italic-webfont.woff") format("woff"), url("../fonts/OpenSans-Italic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Italic-webfont.svg#OpenSansItalic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-}
-
-@font-face {
-  font-family: 'OpenSansSemibold';
-  src: url("../fonts/OpenSans-Semibold-webfont.eot");
-  src: url("../fonts/OpenSans-Semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Semibold-webfont.woff") format("woff"), url("../fonts/OpenSans-Semibold-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Semibold-webfont.svg#OpenSansSemibold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-}
-
-@font-face {
-  font-family: 'OpenSansSemiboldItalic';
-  src: url("../fonts/OpenSans-SemiboldItalic-webfont.eot");
-  src: url("../fonts/OpenSans-SemiboldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-SemiboldItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-SemiboldItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-SemiboldItalic-webfont.svg#OpenSansSemiboldItalic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-}
-
-@font-face {
-  font-family: 'OpenSansBold';
-  src: url("../fonts/OpenSans-Bold-webfont.eot");
-  src: url("../fonts/OpenSans-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Bold-webfont.woff") format("woff"), url("../fonts/OpenSans-Bold-webfont.ttf") format("truetype"), url("../fonts/OpenSans-Bold-webfont.svg#OpenSansBold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-}
-
-@font-face {
-  font-family: 'OpenSansBoldItalic';
-  src: url("../fonts/OpenSans-BoldItalic-webfont.eot");
-  src: url("../fonts/OpenSans-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-BoldItalic-webfont.woff") format("woff"), url("../fonts/OpenSans-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/OpenSans-BoldItalic-webfont.svg#OpenSansBoldItalic") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  -webkit-font-smoothing: antialiased;
-}
 
 /* normalize.css 2012-02-07T12:37 UTC - https://github.com/necolas/normalize.css */
 /* =============================================================================
@@ -547,7 +483,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color: #e8e8e8;
   margin: 0 0 10px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
 }
 
@@ -574,18 +510,18 @@ h4, h5, h6 {
 h3 {
   font-size: 18px;
   line-height: 24px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: Georgia, "Times New Roman", Times, serif !important;
   font-weight: normal;
   color: #b6b6b6;
 }
 
 a {
-  color: #ffcc00;
+  color: #4BACC6;
   font-weight: 400;
   text-decoration: none;
 }
 a:hover {
-  color: #ffeb9b;
+  color: #F79646;
 }
 
 a small {
@@ -600,7 +536,7 @@ ul {
 }
 
 strong {
-  font-family: 'OpenSansBold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: Georgia, "Times New Roman", Times, serif !important;
   font-weight: normal;
 }
 
@@ -670,7 +606,7 @@ th {
   padding: 5px 10px;
   border-bottom: 1px solid #434343;
   color: #b6b6b6;
-  font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: Georgia, "Times New Roman", Times, serif !important;
   font-weight: normal;
 }
 
@@ -690,7 +626,7 @@ hr {
 
 dt {
   color: #F0E7D5;
-  font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: Georgia, "Times New Roman", Times, serif !important;
   font-weight: normal;
 }
 
@@ -716,7 +652,7 @@ dt {
   margin: 6px auto;
 }
 #header nav li {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   list-style: none;
   display: inline;
@@ -726,14 +662,14 @@ dt {
   font-size: 14px;
 }
 #header nav li a {
-  color: white;
-  border: 1px solid #5d910b;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93bd20), color-stop(100%, #659e10));
-  background: -webkit-linear-gradient(#93bd20, #659e10);
-  background: -moz-linear-gradient(#93bd20, #659e10);
-  background: -o-linear-gradient(#93bd20, #659e10);
-  background: -ms-linear-gradient(#93bd20, #659e10);
-  background: linear-gradient(#93bd20, #659e10);
+  color: black;
+  border: 1px solid  #F79646;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #F9B074), color-stop(100%, #F79646));
+  background: -webkit-linear-gradient(#F9B074, #F79646);
+  background: -moz-linear-gradient(#F9B074, #F79646);
+  background: -o-linear-gradient(#F9B074, #F79646);
+  background: -ms-linear-gradient(#F9B074, #F79646);
+  background: linear-gradient(#F9B074, #F79646);
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   -o-border-radius: 2px;
@@ -744,7 +680,7 @@ dt {
   -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
-  background-color: #93bd20;
+  background-color: #F9B074;
   padding: 10px 12px;
   margin-top: 6px;
   line-height: 14px;
@@ -753,14 +689,14 @@ dt {
   text-align: center;
 }
 #header nav li a:hover {
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #749619), color-stop(100%, #527f0e));
-  background: -webkit-linear-gradient(#749619, #527f0e);
-  background: -moz-linear-gradient(#749619, #527f0e);
-  background: -o-linear-gradient(#749619, #527f0e);
-  background: -ms-linear-gradient(#749619, #527f0e);
-  background: linear-gradient(#749619, #527f0e);
-  background-color: #659e10;
-  border: 1px solid #527f0e;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #F9B074), color-stop(100%, #F79646));
+  background: -webkit-linear-gradient(#F9B074, #F79646);
+  background: -moz-linear-gradient(#F9B074, #F79646);
+  background: -o-linear-gradient(#F9B074, #F79646);
+  background: -ms-linear-gradient(#F9B074, #F79646);
+  background: linear-gradient(#F9B074, #F79646);
+  background-color: #F79646;
+  border: 1px solid #F79646;
   -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   -o-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
@@ -793,7 +729,7 @@ section #title {
   padding: 0 0 5px 0;
 }
 section #title h1 {
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 40px;
   text-align: center;
@@ -801,14 +737,23 @@ section #title h1 {
 }
 section #title p {
   color: #d7cfbe;
-  font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   font-size: 18px;
   text-align: center;
 }
+section #title span {
+  display: block;
+  color: #d7cfbe;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+
 section #title .credits {
   font-size: 11px;
-  font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: normal;
   color: #696969;
   margin-top: -10px;
